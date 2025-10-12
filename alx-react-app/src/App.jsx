@@ -9,10 +9,10 @@ function App() {
       <Header />
       <MainContent />
       <UserProfile
-        name="John Doe"
-        age="28"
+        name="Alice"
+        age="25"
         location="Nairobi"
-        bio="A passionate traveler and web developer."
+        bio="Loves hiking and photography"
       />
       <Footer />
     </div>
