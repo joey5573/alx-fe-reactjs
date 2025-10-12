@@ -8,7 +8,12 @@ function App() {
     <div>
       <Header />
       <MainContent />
-      <UserProfile name="John Doe" age="28" location="Nairobi" />
+      <UserProfile
+        name="John Doe"
+        age="28"
+        location="Nairobi"
+        bio="A passionate traveler and web developer."
+      />
       <Footer />
     </div>
   );
