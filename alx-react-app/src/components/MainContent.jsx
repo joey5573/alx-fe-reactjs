@@ -1,7 +1,11 @@
 function MainContent() {
   return (
     <main>
-      <p>This is my first React app composed of multiple components!</p>
+      <ul>
+        <li>Nairobi</li>
+        <li>New York</li>
+        <li>Tokyo</li>
+      </ul>
     </main>
   );
 }
