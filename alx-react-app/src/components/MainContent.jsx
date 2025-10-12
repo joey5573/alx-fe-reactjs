@@ -1,11 +1,7 @@
 function MainContent() {
   return (
     <main>
-      <ul>
-        <li>Nairobi</li>
-        <li>New York</li>
-        <li>Tokyo</li>
-      </ul>
+      <p>I love to visit New York, Paris, and Tokyo.</p>
     </main>
   );
 }
