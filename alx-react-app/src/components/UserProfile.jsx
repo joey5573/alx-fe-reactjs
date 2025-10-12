@@ -2,8 +2,9 @@ function UserProfile(props) {
   return (
     <div>
       <h2>{props.name}</h2>
-      <p>{props.age} years old</p>
-      <p>From {props.location}</p>
+      <p>Age: {props.age}</p>
+      <p>Location: {props.location}</p>
+      <p>Bio: {props.bio}</p>
     </div>
   );
 }
