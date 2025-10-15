@@ -11,7 +11,7 @@ function App() {
       <UserProfile
         name="Alice"
         age="25"
-        location="Nairobi"
+        location="New York"
         bio="Loves hiking and photography"
       />
       <Footer />
