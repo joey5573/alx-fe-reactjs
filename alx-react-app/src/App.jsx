@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import UserProfile from "./components/UserProfile";
+import Counter from "./components/Counter"; // ✅ new import
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         location="New York"
         bio="Loves hiking and photography"
       />
+      <Counter /> {/* ✅ render here */}
       <Footer />
     </div>
   );
